@@ -33,6 +33,7 @@ const CharacterCreator = {
     // Handle form submission
     handleSubmit(e) {
         e.preventDefault();
+        const characterData = this.gatherFormData();
         this.sendDataToLua(characterData);
         this.closeUI();
     },
