@@ -4,7 +4,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 
 author 'Keegan'
 description 'Character Creator'
-version '0.1.0'
+version '0.1.1'
 
 client_scripts {
     'client/*.lua',
@@ -19,11 +19,11 @@ server_scripts {
 }
 
 ui_page {
-    'html/index.html'
+    'ui/index.html'
 }
 
 files {
-    'html/js/*.js',
-    'html/index.html',
-    'html/css/styles.css',
+    'ui/js/*.js',
+    'ui/index.html',
+    'ui/css/styles.css',
 }
