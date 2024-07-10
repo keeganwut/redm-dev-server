@@ -18,7 +18,9 @@ function HandleCharacterCreation(data)
     DebugPrint("Age: " .. data.age)
     DebugPrint("Background: " .. data.background)
 
-    -- TODO: Add logic to save character data and initialize character customization
+    TriggerServerEvent("character_creator:characterCreated", data)
+
+    -- TODO: Add logic to initialize character customization
 
     SetNuiFocus(false, false)
 end
